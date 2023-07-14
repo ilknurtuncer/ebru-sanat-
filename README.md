@@ -1,70 +1,80 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
 
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Interview Accord
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Description
 
-### `yarn test`
+Project aims to create a Ebru Sanatı App.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Problem Statement
 
-### `yarn build`
+- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Skeleton
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+Interview-Accordion (folder)
+|
+|----readme.md         # Given to the students (Definition of the project)
+SOLUTION
+├── public
+│     └── index.html
+├── src
+│   ├── App.css
+│   ├── App.js
+│   ├── components
+│   │   ├── Question.jsx
+│   │   ├── Header.jsx
+│   │   └── EbruSanatı.jsx
+│   ├── helper
+│   │   ├── data.js
+│   │   └── icons.js
+│   └── index.js
+├── package.json
+└── package-lock.json
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
 
-### `yarn eject`
+## Expected Outcome
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![interview](interview.gif)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Objective
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Build a Interview Accord App using ReactJS.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### At the end of the project, following topics are to be covered;
 
-## Learn More
+- HTML
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- CSS
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- JS
 
-### Code Splitting
+- ReactJS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### At the end of the project, students will be able to;
 
-### Analyzing the Bundle Size
+- improve coding skills within HTML & CSS & JS & ReactJS.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
-### Making a Progressive Web App
+## Steps to Solution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Step 1: Create React App using `npx create-react-app ebru-sanatı`
 
-### Advanced Configuration
+- Step 2: Build Ebru Sanatı App.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Step 3: Push your application into your own public repo on Github
 
-### Deployment
+- Step 4: Add project gif to your project and README.md file.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Notes
 
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- You can add additional functionalitiesto your app.
