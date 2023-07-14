@@ -10,7 +10,7 @@ In the project directory, you can run:
 
 ## Description
 
-Project aims to create a Ebru Sanatı App.
+Project aims to create a Marbling-Art-Accord App.
 
 ## Problem Statement
 
@@ -19,7 +19,7 @@ Project aims to create a Ebru Sanatı App.
 ## Project Skeleton
 
 ```
-Interview-Accordion (folder)
+Marbling-Art-Accord (folder)
 |
 |----readme.md         # Given to the students (Definition of the project)
 SOLUTION
@@ -31,7 +31,7 @@ SOLUTION
 │   ├── components
 │   │   ├── Question.jsx
 │   │   ├── Header.jsx
-│   │   └── EbruSanatı.jsx
+│   │   └── MarblingArt.jsx
 │   ├── helper
 │   │   ├── data.js
 │   │   └── icons.js
@@ -43,11 +43,11 @@ SOLUTION
 
 ## Expected Outcome
 
-![interview](interview.gif)
+![marblingart](interview.gif)
 
 ## Objective
 
-Build a Interview Accord App using ReactJS.
+Build a Marbling-Art-Accord using ReactJS.
 
 ### At the end of the project, following topics are to be covered;
 
@@ -67,9 +67,9 @@ Build a Interview Accord App using ReactJS.
 
 ## Steps to Solution
 
-- Step 1: Create React App using `npx create-react-app ebru-sanatı`
-
-- Step 2: Build Ebru Sanatı App.
+- Step 1: Create React App using `npx create-react-app `
+Marbling-Art-Accord
+- Step 2: Build Marbling-Art-Accord App.
 
 - Step 3: Push your application into your own public repo on Github
 
