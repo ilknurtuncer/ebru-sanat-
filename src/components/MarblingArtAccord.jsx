@@ -1,17 +1,17 @@
-import React from 'react'
-import Question from './Question';
+import React from "react";
+import Question from "./Question";
 
 const MarblingArtAccord = (props) => {
-    const {data} = props;
-    console.log('data',props);
-    
-  return (
-    <div className='row'>
-        {
-           data.map(item => <Question key={item.id} {...item} />)
-        }
-    </div>
-  )
-}
+  const { data } = props;
+  console.log("data", props);
 
-export default MarblingArtAccord
+  return (
+    <div className="row">
+      {data.map((item) => (
+        <Question key={item.id} {...item} />
+      ))}
+    </div>
+  );
+};
+
+export default MarblingArtAccord;

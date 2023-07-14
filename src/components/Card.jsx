@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
 const Card = ({ id, question, answer, icon, handleToggle }) => {
-    console.log('answer',answer);
-    
+  console.log("answer", answer);
+
   return (
     <div className="card">
       <div className="ques-answer">
@@ -16,4 +16,4 @@ const Card = ({ id, question, answer, icon, handleToggle }) => {
   );
 };
 
-export default Card
+export default Card;
