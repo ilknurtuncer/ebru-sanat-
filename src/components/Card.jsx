@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({ id, question, answer, icon, handleToggle }) => {
+const Card = ({ id, img, question, answer, icon, handleToggle }) => {
   console.log("answer", answer);
 
   return (
@@ -11,6 +11,9 @@ const Card = ({ id, question, answer, icon, handleToggle }) => {
         </h5>
         <button onClick={handleToggle}>{icon}</button>
       </div>
+     
+      {img && <img src={img} alt="Card" height="300px" width="200px" />
+      }
       {answer && <p>{answer}</p>}
     </div>
   );

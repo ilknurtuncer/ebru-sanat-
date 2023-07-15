@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { arrowdown, arrowup } from "../helper/icons";
 import Card from "./Card";
 
-const Question = ({ id, question, answer }) => {
+const Question = ({ id, img, question, answer }) => {
   const [show, setShow] = useState(false);
 
   console.log(!"saa");
@@ -16,6 +16,7 @@ const Question = ({ id, question, answer }) => {
       {show ? (
         <Card
           id={id}
+          img={img}
           question={question}
           answer={answer}
           icon={arrowup}

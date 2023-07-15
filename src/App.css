@@ -10,13 +10,13 @@
 body {
   background: linear-gradient(
     -45deg,
-    #003547,
-    #c2bb00,
-    #e1523d,
-    #ed8b16,
-    #005e54
+    #550529,
+    #d84edc,
+    #d33de1,
+    #24bdc2,
+    #330e73
   );
-  background-size: 400% 400%;
+  background-size: 500% 500%;
   animation: gradient 20s ease infinite;
   height: 100vh;
 }
@@ -38,7 +38,7 @@ body {
   padding: 1rem;
   max-width: 100%;
 }
-.card {
+.card { 
   background-color: rgba(252, 251, 251, 0);
   border-radius: 10px;
   padding: 2rem;
@@ -49,7 +49,7 @@ body {
 h5 {
   font-size: 1.6rem;
   font-family: "Cinzel", serif;
-  color: darkred;
+  color: rgb(209, 63, 63);
 }
 .ques {
   display: flex;
@@ -81,4 +81,5 @@ p {
   font-weight: 400;
   font-family: "Pathway Gothic One", sans-serif;
   text-indent: 1.25rem;
+  
 }
