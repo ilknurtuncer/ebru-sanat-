@@ -11,10 +11,17 @@ const Card = ({ id, img, question, answer, icon, handleToggle }) => {
         </h5>
         <button onClick={handleToggle}>{icon}</button>
       </div>
-     
-      {img && <img src={img} alt="Card" height="300px" width="200px" />
+     <div className="img-answer">
+      <div className="imgcard">
+         {img && <img src={img} alt="Card" height="300px" width="200px" />
       }
-      {answer && <p>{answer}</p>}
+      </div>
+     
+      <div className="answer">
+        {answer && <p>{answer}</p>}
+      </div>
+      
+      </div>
     </div>
   );
 };

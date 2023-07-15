@@ -46,10 +46,10 @@ body {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   color: aliceblue;
 }
-h5 {
+h5 {margin-bottom: 2rem;
   font-size: 1.6rem;
   font-family: "Cinzel", serif;
-  color: rgb(209, 63, 63);
+  color: rgb(209, 168, 63);
 }
 .ques {
   display: flex;
@@ -82,4 +82,12 @@ p {
   font-family: "Pathway Gothic One", sans-serif;
   text-indent: 1.25rem;
   
+}
+.img-answer{
+  display: flex;
+ 
+}
+.answer{
+  padding-left: 2rem;
+  margin-top: 5rem;
 }
